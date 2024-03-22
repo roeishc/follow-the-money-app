@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--      Category-->
+      <LinearLayout
+          android:id="@+id/add_expense_category_wrapper"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:clickable="true"
+          android:focusable="true"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/lbl_add_expense_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans"
+            android:text="@string/category"
+            android:textColor="#000"
+            android:textIsSelectable="false"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/add_expense_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:contentDescription="@string/expense_category_content_description" />
+
+      </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+      
+<!--      Amount-->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <LinearLayout
+          android:id="@+id/add_expense_amount_wrapper"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:clickable="true"
+          android:focusable="true"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp">
+
+          <TextView
+              android:id="@+id/lbl_add_expense_amount"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:fontFamily="sans"
+              android:text="@string/amount"
+              android:textColor="#000"
+              android:textIsSelectable="false"
+              android:textSize="20sp" />
+
+          <EditText
+              android:autofillHints="amount"
+              android:id="@+id/add_expense_amount"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingEnd="8dp"
+              android:paddingStart="8dp"
+              android:textIsSelectable="false"
+              android:inputType="number"
+              android:textSize="20sp"
+              android:hint="@string/amount_edit_text_hint"/>
+
+        </LinearLayout>
+      </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+    <!--      Date-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/add_expense_date_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/lbl_add_expense_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans"
+                android:text="@string/date"
+                android:textColor="#000"
+                android:textIsSelectable="false"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/add_expense_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:textIsSelectable="false"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+    <!--      Note-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/add_expense_note_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/lbl_add_expense_note"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans"
+                android:text="@string/note"
+                android:textColor="#000"
+                android:textIsSelectable="false"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/add_expense_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:textIsSelectable="false"
+                android:inputType="textMultiLine"
+                android:textSize="20sp"
+                android:hint="@string/note_edit_text_hint"
+                android:autofillHints="note"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/add_expense_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/defaultButtonStyle"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</LinearLayout>

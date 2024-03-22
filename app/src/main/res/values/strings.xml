@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Follow the Money</string>
+    <string name="button_add_expense">Add Expense</string>
+    <string name="button_view_expense">View Expenses</string>
+    <string name="button_expenses_summary">Expenses Summary</string>
+    <string name="button_edit_expenses">Edit Expenses</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="follow_the_money">Follow the Money</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="textview_welcome_message">Welcome to\nFollow the Money</string>
+    <string name="date">Date</string>
+    <string name="note">Note</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="sent">Sent</string>
+    <string name="invalid_phone_number">Invalid phone number, please try again</string>
+    <string name="failed_sms">Failed to send SMS</string>
+    <string name="send_sms_title">Send SMS</string>
+    <string name="view_expenses_explanation">Tap to edit, or tap and hold to delete</string>
+    <string name="info_page">Info page</string>
+    <string name="thank_you">Thank you for choosing\nFollow the Money!</string>
+    <string name="info_main_description_long">In Follow the Money, you can keep track of all your expenses!\nFrom the main page, tap "Add Expense" to create a new expense. You need to choose a category, specify a date and the amount spent, but you can leave the note empty!\nAfter adding a few expenses, tap "View Expenses" from the main page to view all the expenses you created! In addition, tapping an existing expense will allow you to edit its details, and long-tapping it will remove it from the list.\nLastly, you can see a summary of all of your expenses by tapping "Expenses Summary" in the main page.\nTESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT TESTING LONG TEXT</string>
+    <string name="info_main_description">In Follow the Money, you can keep track of all your expenses!\nFrom the main page, tap "Add Expense" to create a new expense. You need to choose a category, specify a date and the amount spent, but you can leave the note empty!\nAfter adding a few expenses, tap "View Expenses" from the main page to view all the expenses you created! In addition, tapping an existing expense will allow you to edit its details, and long-tapping it will remove it from the list.\nLastly, you can see a summary of all of your expenses by tapping "Expenses Summary" in the main page.</string>
+    <string name="expense_category_content_description">Expense category</string>
+    <string name="amount_edit_text_hint">How much was the expense?</string>
+    <string name="note_edit_text_hint">Description or any additional info...</string>
+    <string name="main_info_credit_title"><a href="https://www.youtube.com/watch?v=caGlzR9F2zI">TED - Why we make bad financial choices</a></string>
+
+
+    <string-array name="base_expenses">
+        <item>Home</item>
+        <item>Rent</item>
+        <item>Groceries</item>
+        <item>Car</item>
+        <item>Recreation</item>
+    </string-array>
+</resources>

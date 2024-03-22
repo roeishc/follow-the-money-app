@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "595475728245",
+    "project_id": "followthemoneyapp",
+    "storage_bucket": "followthemoneyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595475728245:android:259021d19e39169144f53c",
+        "android_client_info": {
+          "package_name": "com.example.followthemoneyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595475728245-jihvrqb5kl7nlunabuq2sasahb2ulkab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhjwmF7TPa-ZXqHSeZEQ3bLo4yzIQ682o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595475728245-jihvrqb5kl7nlunabuq2sasahb2ulkab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
